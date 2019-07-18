@@ -1,17 +1,97 @@
 
 <html>
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"
+      <link rel="icon" type="image/png" href="images/Logo.png"/>
+</head>
+
+<title>
+    iamalireza
+  </title>
   <body>
+  <div class="gradient"</div>
+  <div class="loader">    
+                   <img src="images/one-playe.gif" alt="Loading..."/>
+  </div>
+
                          <a href="#" class="scroll"></a>
-	                      
-  
-  </body>
-        <img id=work src="work.png">
-  <style>
+	                 <a href="index.html"> <img id=Mlogo src="images/Mlogo.png"> </a>   
+ 
+               <script type="text/javascript">
+         window.addEventListener("load",function () {
+           const loader= document.querySelector(".loader");
+           loader.className += " hidden"; //class "loader hidden"
+            
+        });
+        
+          </script>                       
+  </body>         
+        
+        <img id=work src="images/work.svg">
+        <h1 id="text1">UI/UX design for shayan group</h1>
+        <h1 id="text2">UI/UX design for game arrangers</h1>
+        <img id=shayan src="images/shayan.jpg">
+        <img id=arrangers src="images/arrangers.png">
+        <h2> The user interface is an experience That, time, can To teach you</h2>
+         <hr>
+         <a href="https://t.me/Onlyy_god"><img id=Telegram src="images/Telegram.png">
+         <a href="https://linkedin.com/in/alireza-daneshvar-900046168/"><img id=linkedin src="images/linkedin.png">
+         <a href="https://www.instagram.com/alireza.dan78/"><img id=instagram src="images/instagram.png">
+         <a href="alidaneshvar778@gmail.com"><img id=gmail src="images/gmail.png">
+         <a href="https://alirezadan.github.io/web/"><p> design by: AlirezaDan (A.R.D)</p>
+   
+  <style> 
+div {
+  width:1880px;
+  height: 3979px;
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to top, 
+      #4D4C4C, #1E1E1E
+    );
+}
+    .loader{
+          position: fixed;
+          z-index:99;
+          top:0;
+          left:0;
+          width:100%;
+          height:100%;
+          background:black;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+                    
+}
+
+ .loader > img {
+                width: 100px;
+                
+ }
+  .loader.hidden {
+                  animation: fadeOut 4s;
+                  animation-fill-mode:forwards;
+                  
+}
+
+
+  @keyframes fadeOut {
+
+                100%{
+                   opacity:0;
+                   visibility:hidden;
+
+   }
+} 
+
+
+      
   before {
 	box-sizing: border-box
 }
 
-                       .scroll{background:#fff; border-radius:100px; width:20px; height: 50px; position: absolute; bottom: 30px; left:50%; margin:0 0 0 -15px; display: block; box-shadow:3px 3px 5px rgba(0,0,0,0.2);}
+                       .scroll{background:#232323; border-radius:100px; width:20px; height: 50px; position: absolute; bottom: 30px; left:50%; margin:0 0 0 -15px; display: block; box-shadow:3px 3px 5px rgba(30,10,10,100.2);}
                        .scroll:after{background:#c1c1c1; border-radius: 300px; width:6px; height: 7px; position: absolute; top: 100px; left:50%; margin:0 0 0 -3px; display: block; content:" "; -webkit-animation: wiggle 0.5s linear 0s infinite alternate; -moz-animation: wiggle 0.5s linear 0s infinite alternate; -o-animation: wiggle 0.5s linear 0s infinite alternate; animation: wiggle 0.5s linear 0s infinite alternate;}
 
                         @-webkit-keyframes wiggle {from { top: 10px; } to { top: 14px; }}
@@ -19,52 +99,168 @@
                         @-o-keyframes wiggle {from { top: 10px; } to { top: 14px; }}
                         @keyframes wiggle {from { top: 30px; } to { top: 36px; }}
 
+  
 
-  body{
-    background-color:#1C1C1C;
+
+  body{ 
+    background-color:#1E1E1E;
          color:#FFFFFF;
          text-align:center;
-}
-  
-    img{
+}  
+    #work{
           display: block;
-          margin-left: 400px;
-          margin-right: 680px;
-          margin-top: 320px;
+          margin-left: 370px;
+          margin-right: 600px;
+          margin-top: 250px;
+          width:1200px;
+          
+}
+    #shayan{
+
+             width:700px;
+        margin-left: 20px;  
+        margin-right: 900px;
+        margin-top: 100px;  
+        margin-bottom: 10px;
+        opacity: 1.0;
+                     filter: alpha(opacity=100);
+}
+
+  #shayan:hover {
+                  opacity: 0.5;
+               filter: alpha(opacity=30); 
+               
+               
+               
+}
+
+   #arrangers{ 
+               width:720px;
+               height:690px; 
+             margin-top:-700px;
+             margin-left:900px;
+             margin-right:50px;
+             margin-bottom:10px;
+             opacity: 1.0;
+                     filter: alpha(opacity=100);
 
 }
+    #arrangers:hover {
+                     opacity: 0.5;
+               filter: alpha(opacity=30); 
+}
+
+   #Mlogo{
+          display: block;
+          margin-left: 15px;
+          margin-right: 1880px;
+          margin-top: 20px;
+          width:80px;
+}
+   p{          
+          margin-left: -150px;
+          margin-right: 1650px;
+          margin-top: -150px;
+          margin-bottom: 1px;
+          transform: rotate(-90deg);
+          color:#FFFFFF;
+                                
+}       
+   h2{
+          display: block;
+          margin-left: 620px;
+          margin-right: 600px;
+          margin-top: 1615px;
+          margin-bottom: 10px;
+}
+    hr{
+         display: block;
+           margin-top: 1em;
+           margin-bottom: 20px;
+           margin-left: 700px;
+           margin-right: 700px;
+           border-style: inset;
+           border-width: 1px;
+           
+}
+
+    #gmail{
+          display: block;
+          margin-left: 1130px;
+          margin-right: 1px;
+          margin-top: -106px;
+          margin-bottom: 80px;
+          opacity: 0.5;
+               filter: alpha(opacity=40);
+
+}
+    #gmail:hover {
+                     opacity: 1.0;
+                     filter: alpha(opacity=100); 
+}
+
+
+    #instagram{ 
+               display: block;
+               margin-left: 990px;
+               margin-right: 30px;
+               margin-top: -106px;
+               margin-bottom:80px;
+               opacity: 0.5;
+               filter: alpha(opacity=40);
+}
+   #instagram:hover {
+                     opacity: 1.0;
+                     filter: alpha(opacity=100); 
+}
+   
+
+    #linkedin{
+              display: block;
+               margin-left: 880px;
+               margin-right: 30px;
+               margin-top: -105px;
+               margin-bottom: 80px;
+               opacity: 0.5;
+               filter: alpha(opacity=40); 
+}
+    #linkedin:hover {
+                     opacity: 1.0;
+                     filter: alpha(opacity=100); 
+}
+
+
+    #Telegram {   
+              display: block;            
+               margin-left: 740px;
+               margin-right: 30px;
+               margin-top: 1px;
+               margin-bottom: 80px;              
+               opacity: 0.5;
+               filter: alpha(opacity=40);               
+}
+
+      #telegram:hover {
+                     fill:gold;
+                     opacity: 1.0;
+                     filter: alpha(opacity=100); 
+}
+ #text1{
+      margin-left: 20px;  
+        margin-right: 900px;
+        margin-top: 1400px;  
+        margin-bottom: -1030px;
+        color:gold;
+}
+
+ #text2{
+           argin-left: 200px;  
+        margin-right: -900px;
+        margin-top: 1000px;  
+        margin-bottom: -750px;
+        color:gold;  
+}
+
 
   </style>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
